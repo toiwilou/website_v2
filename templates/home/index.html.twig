@@ -1,0 +1,42 @@
+{% extends 'base.html.twig' %}
+{% block title %}Accueil{% endblock %}
+{% block body %}
+
+{{ encore_entry_link_tags('home') }}
+
+<div id="home-content">
+    <div id="home-header">
+        <div style="height: 100px;"></div>
+        <div class="content">{# -- remove space --
+            #}<div class="item" style="width: 35%;">
+                <div class="image text-center">
+                    <img src="{{ asset('images/app/toiwilou-home.png') }}">
+                </div>
+            </div>{# -- remove space --
+            #}<div class="item" style="width: 65%;">
+                <div class="text-about">
+                    <table style="height: inherit;"><td>
+                        <div class="content">
+                            <h1 class="index-header-title"><strong>Business is <br> Now Digital</strong></h1>
+                            <p class="para-header-index">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis natus asperiores ullam praesentium consequuntur quasi illum eos eveniet fuga mollitia. Eveniet consectetur non nisi reiciendis enim obcaecati ipsam similique fuga?
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis natus asperiores ullam praesentium consequuntur quasi illum eos eveniet fuga mollitia. Eveniet consectetur non nisi reiciendis enim obcaecati ipsam similique fuga...
+                            </p>
+                            <button type="button" class="btn btn-light">Voir mon profil</button>
+                            <button type="button" class="btn btn-outline-light">En savoir plus</button>
+                        </div>
+                    </td></table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="home-main">
+        <div class="content">
+            vjvgv
+        </div>
+    </div>
+</div>
+
+{{ encore_entry_script_tags('home') }}
+
+{% endblock %}
